@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2? family= Arbutus+Slab & family= Space+Grotesk:wght@300 & display=swap');
+</estilo>
+
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Arbutus Slab', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: cadetblue;
+}
+
+aside {
+    padding: 1rem;
+    color:white;
+    position: sticky;
+    top:0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+main {
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.tituloprincipal {
+    color:white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.contenedorproductos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.producto-imagen {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.caracteristicas {
+    background-color: white;
+    padding: -5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.carrito.productos {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.carrito.producto {
+display: flex;
+justify-content: space-between;
+}
+
+.carrito.imagen {
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+
+.carrito.acciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numero {
+    background-color: white;
+    color:cadetblue;
+    padding:-25rem;
+}
+
+.disabled {
+    display:none;
+}
